@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/title_background2">
+
+    <EditText
+        android:id="@+id/edittextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        android:background="@drawable/white_trans"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/white_trans"
+        android:paddingBottom="40dp"
+        android:layout_marginTop="100dp">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="50dp"
+        />
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 seconds"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="35dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOOR COUNT"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/door_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="50 doors clicked"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="35dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="50dp"
+        />
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="500"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="35dp"
+        />
+
+    </LinearLayout>
+
+    <com.spark.submitbutton.SubmitButton
+        android:layout_marginTop="50dp"
+        android:id="@+id/finishgamematching"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Submit Score"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/monsters_secondary"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="1000"
+        app:sub_btn_line_color="@color/monsters_secondary"
+        app:sub_btn_ripple_color="@color/monsters_secondary"
+        app:sub_btn_tick_color="@color/white"
+        />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:id="@+id/recycler_matching_container"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:background="@drawable/white_trans"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Time"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@drawable/white_trans"
+        android:gravity="center"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/clicksView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Clicks"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/white_trans"
+        android:gravity="center"
+        android:paddingRight="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Score"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@drawable/white_trans"
+        android:textAlignment="textEnd"
+        android:layout_gravity="end"
+        android:paddingRight="25dp">
+    </TextView>
+</LinearLayout>
+
+
+
+

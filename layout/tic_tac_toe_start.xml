@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@drawable/title_background4">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/start_button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/player_one"
+            android:background="@null"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/start_button2"
+            android:src="@drawable/player_two_clicked"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/start_button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/player_x"
+            android:background="@null"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/start_button4"
+            android:src="@drawable/player_o_clicked"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/submit_button_tic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Let's Play"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="1500"
+        app:sub_btn_line_color="@color/primary_color"
+        app:sub_btn_ripple_color="@color/secondary_color"
+        app:sub_btn_tick_color="@color/white"
+        android:layout_weight="1"/>
+
+
+
+
+</LinearLayout>

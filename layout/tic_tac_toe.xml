@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/title_background4">
+
+
+
+
+
+
+    <TableLayout
+        android:id="@+id/glGameBoard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="150dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:columnCount="3"
+        android:padding="8dp"
+        android:rowCount="3"
+        android:weightSum="3"
+        >
+
+        <TableRow
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+
+        </TableRow>
+
+        <TableRow android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+            <ImageView
+                android:id="@+id/button5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+            <ImageView
+                android:id="@+id/button6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/button7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+            <ImageView
+                android:id="@+id/button8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+            <ImageView
+                android:id="@+id/button9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="8dp"
+                android:background="#51D3DF"
+                android:padding="3dp"
+                android:src="@drawable/xando_start" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>

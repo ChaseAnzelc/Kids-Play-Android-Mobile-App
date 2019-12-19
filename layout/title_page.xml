@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/title_background4"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="460dp"
+        app:sparkbutton_activeImage="@drawable/start_button"
+        app:sparkbutton_iconSize="200dp"
+        app:sparkbutton_inActiveImage="@drawable/start_button"
+        app:sparkbutton_primaryColor="@color/primary_color"
+        app:sparkbutton_secondaryColor="@color/secondary_color"
+        />
+
+
+
+
+</LinearLayout>
