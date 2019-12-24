@@ -6,17 +6,17 @@ They were my customers and I created the application to their desire.</br>
 
 What was used..<br>
 [Android Studio]<br>
-[XML Layout Files]
-[Implementation of a sparkbutton, submitbutton, and stylabletoast]
-[Fragments]
-[Photoshop]
-[Animations]
-[Intents]
-[SQLite Database]
-[Handlers]
-[RecyclerView]
-[Gestures]
-[GridView]
+[XML Layout Files]<br>
+[Implementation of a sparkbutton, submitbutton, and stylabletoast]<bR>
+[Fragments]<br>
+[Photoshop]<br>
+[Animations]<br>
+[Intents]<br>
+[SQLite Database]<br>
+[Handlers]<br>
+[RecyclerView]<br>
+[Gestures]<br>
+[GridView]<br><br>
 
 Please enjoy the presentation and demo of my Android Mobile App..
 
