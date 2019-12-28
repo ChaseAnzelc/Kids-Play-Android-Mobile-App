@@ -2,7 +2,6 @@
 Android Mobile Application built in Android Studio
 
 A super fun mobile gaming application that I created for my two young daughters.</br>
-They were my customers and I created the application to their desire.</br>
 
 What was used..<br>
 [Android Studio IDE]<br>
