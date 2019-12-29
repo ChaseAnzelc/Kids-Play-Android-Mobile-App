@@ -1,7 +1,7 @@
 # Kid's Play Android Mobile App
 Android Mobile Application built in Android Studio
 
-A super fun mobile gaming application that I created for my two young daughters.</br>
+A super fun mobile gaming application that I created for my two young daughters and is currently deployed on 3 android devices.</br>
 
 What was used..<br>
 [Android Studio IDE]<br>
