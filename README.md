@@ -5,6 +5,7 @@ A super fun mobile gaming application that I created for my two young daughters 
 
 What was used..<br>
 [Android Studio IDE]<br>
+[Java]
 [XML Layout Files]<br>
 [Implementation of a sparkbutton, submitbutton, and stylabletoast]<bR>
 [Fragments]<br>
