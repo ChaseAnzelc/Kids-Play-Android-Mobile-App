@@ -1,5 +1,5 @@
 # Kid's Play Android Mobile App
-Android Mobile Application built in Android Studio with Java
+Android Mobile Application built in Android Studio with Java 
 
 Please download the APK, then proceed to install for hours of ad free fun!
 
